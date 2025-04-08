@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuki's Storybook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        /* Adjust image width to 70% and center it */
+        section img {
+            width: 70%; /* Adjusted to 70% */
+            height: auto;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; /* This centers the image */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            section {
+                padding: 1rem;
+                margin: 1rem 0;
+            }
+
+            /* Further reduce image width for smaller screens */
+            section img {
+                width: 80%; /* Adjusted for medium screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 0.9rem;
+            }
+
+            header {
+                padding: 1rem;
+            }
+
+            section {
+                padding: 0.5rem;
+            }
+
+            /* Make the image 90% width for small screens */
+            section img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#scene1">Scene 1</a></li>
+                <li><a href="#scene2">Scene 2</a></li>
+                <li><a href="#scene3">Scene 3</a></li>
+                <li><a href="#scene4">Scene 4</a></li>
+                <li><a href="#scene5">Scene 5</a></li>
+                <li><a href="#scene6">Scene 6</a></li>
+                <li><a href="#scene7">Scene 7</a></li>
+                <li><a href="#scene8">Scene 8</a></li>
+                <li><a href="#scene9">Scene 9</a></li>
+                <li><a href="#scene10">Scene 10</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Story Scenes -->
+    <section id="scene1">
+        <h2>Scene 1: A Happy Day for Yuki</h2>
+        <img src="Image1.jpg" alt="Scene 1 Image">
+        <p>On a sunny morning, Yuki put on her favorite blue clothes and happily walked out the door, ready to play with her friends.</p>
+    </section>
+
+    <section id="scene2">
+        <h2>Scene 2: Meeting the Little Rabbit</h2>
+        <img src="Image2.jpg" alt="Scene 2 Image">
+        <p>Yuki met a little rabbit on the grass. The rabbit looked a little lonely, so Yuki walked over and asked, "What's wrong, little rabbit?"</p>
+    </section>
+
+    <section id="scene3">
+        <h2>Scene 3: The Rabbit's Problem</h2>
+        <img src="Image3.jpg" alt="Scene 3 Image">
+        <p>The little rabbit said, "I lost my red apple, and I'm so hungry. I can't find it." Yuki decided to help the rabbit.</p>
+    </section>
+
+    <section id="scene4">
+        <h2>Scene 4: Looking Together</h2>
+        <img src="Image4.jpg" alt="Scene 4 Image">
+        <p>Yuki and the little rabbit searched everywhere for the red apple. They walked through the grass, crossed a small river, and climbed a little hill.</p>
+    </section>
+
+    <section id="scene5">
+        <h2>Scene 5: Finding the Red Apple</h2>
+        <img src="Image5.jpg" alt="Scene 5 Image">
+        <p>Finally, they found the red apple under a big tree! The little rabbit jumped up happily and thanked Yuki for her help.</p>
+    </section>
+
+    <section id="scene6">
+        <h2>Scene 6: Sharing the Apple</h2>
+        <img src="Image6.jpg" alt="Scene 6 Image">
+        <p>Yuki smiled and said, "Let's share this apple together." The little rabbit nodded happily, and the two friends sat on the grass, enjoying the delicious apple.</p>
+    </section>
+
+    <section id="scene7">
+        <h2>Scene 7: More Friends Arrive</h2>
+        <img src="Image7.jpg" alt="Scene 7 Image">
+        <p>Just then, Yuki heard the sound of her friend, the little bird, chirping. The little bird flew over and said, "I'm hungry too! Do you have any food?"</p>
+    </section>
+
+    <section id="scene8">
+        <h2>Scene 8: Sharing with Others</h2>
+        <img src="Image8.jpg" alt="Scene 8 Image">
+        <p>Yuki and the little rabbit didn't hesitate. They happily shared the apple with the little bird. The little bird said, "Thank you! You are the best friends!"</p>
+    </section>
+
+    <section id="scene9">
+        <h2>Scene 9: The Power of Friendship</h2>
+        <img src="Image9.jpg" alt="Scene 9 Image">
+        <p>The three friends played, laughed, and had so much fun together. They realized that sharing and helping friends made their friendship stronger.</p>
+    </section>
+
+    <section id="scene10">
+        <h2>Scene 10: A Happy Ending</h2>
+        <img src="Image10.jpg" alt="Scene 10 Image">
+        <p>As the sun began to set, Yuki and her new friends said goodbye, feeling warm and happy inside. They promised to play and share again tomorrow.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Yuki's Storybook. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Add any custom functionality here if needed, e.g., scroll animations or interactivity.
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log("Storybook is ready!");
+        });
+    </script>
+</body>
+</html>
